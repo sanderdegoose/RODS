@@ -1,9 +1,1611 @@
 {
-  "global": {},
+  "Fundament/Light": {
+    "Base": {
+      "Green": {
+        "value": "#00811f",
+        "type": "color"
+      },
+      "Black": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Gray": {
+        "value": "#eff4f6",
+        "type": "color"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Magenta": {
+        "value": "#c93675",
+        "type": "color"
+      }
+    },
+    "Gray": {
+      "Tint 1": {
+        "value": "#eff4f6",
+        "type": "color"
+      },
+      "Tint 2": {
+        "value": "#e4eef1",
+        "type": "color"
+      },
+      "Tint 3": {
+        "value": "#dbe7ea",
+        "type": "color"
+      },
+      "Tint 4": {
+        "value": "#cad6da",
+        "type": "color"
+      },
+      "Tint 5": {
+        "value": "#b6c4c8",
+        "type": "color"
+      },
+      "Tint 6": {
+        "value": "#9dafb6",
+        "type": "color"
+      },
+      "Tint 7": {
+        "value": "#8d9da4",
+        "type": "color"
+      },
+      "Tint 8": {
+        "value": "#7c8b90",
+        "type": "color"
+      },
+      "Tint 9": {
+        "value": "#65757b",
+        "type": "color"
+      },
+      "Tint 10": {
+        "value": "#536165",
+        "type": "color"
+      },
+      "Tint 11": {
+        "value": "#404b4f",
+        "type": "color"
+      }
+    },
+    "Notification": {
+      "Neutral": {
+        "Background": {
+          "value": "#e8f4fb",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#b4dbf1",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "#00689e",
+          "type": "color"
+        },
+        "Notification dot": {
+          "value": "#00689e",
+          "type": "color"
+        }
+      },
+      "Alert": {
+        "Background": {
+          "value": "#fdf0ee",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#f7ccc5",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "#d70d0d",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "Background": {
+          "value": "#fef8e6",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#f9e7ac",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "#a65600",
+          "type": "color"
+        }
+      },
+      "Accomplishment": {
+        "Background": {
+          "value": "#e6f3e9",
+          "type": "color"
+        },
+        "Outline": {
+          "value": "#acd6b7",
+          "type": "color"
+        },
+        "Icon": {
+          "value": "#00811f",
+          "type": "color"
+        }
+      }
+    },
+    "Secondary": {
+      "Blue": {
+        "Tint 1": {
+          "value": "#1791d4",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#0084c4",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#0079b8",
+          "type": "color"
+        }
+      },
+      "Orange-bright": {
+        "Tint 1": {
+          "value": "#ef7d00",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#e56e02",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#db5f06",
+          "type": "color"
+        }
+      },
+      "Brown": {
+        "Tint 1": {
+          "value": "#ab8061",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#997056",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#8b644c",
+          "type": "color"
+        }
+      },
+      "Blue-dark": {
+        "Tint 1": {
+          "value": "#00548f",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#084279",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#083968",
+          "type": "color"
+        }
+      },
+      "Brown-dark": {
+        "Tint 1": {
+          "value": "#6b4236",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#5e362c",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#552d25",
+          "type": "color"
+        }
+      },
+      "Green-dark": {
+        "Tint 1": {
+          "value": "#004c31",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#07341b",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#001905",
+          "type": "color"
+        }
+      },
+      "Yellow-dark": {
+        "Tint 1": {
+          "value": "#edb500",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#e0a200",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#d99600",
+          "type": "color"
+        }
+      },
+      "Green": {
+        "Tint 1": {
+          "value": "#00811f",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#006e32",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#00602e",
+          "type": "color"
+        }
+      },
+      "Green-blue": {
+        "Tint 1": {
+          "value": "#09957b",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#00846d",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#00755f",
+          "type": "color"
+        }
+      },
+      "Green-light": {
+        "Tint 1": {
+          "value": "#57b051",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#11a03e",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#11a03e",
+          "type": "color"
+        }
+      },
+      "Blue-light": {
+        "Tint 1": {
+          "value": "#a8e8f5",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#92cfe1",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#76c1d3",
+          "type": "color"
+        }
+      },
+      "Green-lime": {
+        "Tint 1": {
+          "value": "#7dc90f",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#73b129",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#62a72b",
+          "type": "color"
+        }
+      },
+      "Magenta": {
+        "Tint 1": {
+          "value": "#c93675",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#a12b5e",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#792046",
+          "type": "color"
+        }
+      },
+      "Orange": {
+        "Tint 1": {
+          "value": "#e3614d",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#d85644",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#ce4c3b",
+          "type": "color"
+        }
+      },
+      "Pink": {
+        "Tint 1": {
+          "value": "#e6007e",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#ce0075",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#b21271",
+          "type": "color"
+        }
+      },
+      "Purple": {
+        "Tint 1": {
+          "value": "#701747",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#510e33",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#420c2f",
+          "type": "color"
+        }
+      },
+      "Red": {
+        "Tint 1": {
+          "value": "#fe1818",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#d70d0d",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#9a0f0f",
+          "type": "color"
+        }
+      },
+      "Green-soft": {
+        "Tint 1": {
+          "value": "#e1efe2",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#d1e6ce",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#99cca0",
+          "type": "color"
+        }
+      },
+      "Yellow": {
+        "Tint 1": {
+          "value": "#fdec3d",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#edde26",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#e1d600",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Tokens/Light": {
+    "Core": {
+      "Text": {
+        "text_primary": {
+          "value": "{Gray.Tint 11}",
+          "type": "color"
+        },
+        "text_subtitle": {
+          "value": "{Base.Green}",
+          "type": "color"
+        },
+        "text_form-field_placeholder": {
+          "value": "{Gray.Tint 9}",
+          "type": "color"
+        },
+        "text_error": {
+          "value": "{Secondary.Red.Tint 2}",
+          "type": "color"
+        }
+      },
+      "Buttons": {
+        "text": {
+          "button_text_primary": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_tertiary": {
+            "value": "{Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_delete": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_disabled": {
+            "value": "{Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_tertiary_hover": {
+            "value": "{Base.Green}",
+            "type": "color"
+          },
+          "button_text_secondary_black": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_black_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "button_bg_primary": {
+            "value": "{Base.Magenta}",
+            "type": "color"
+          },
+          "button_bg_secondary_green": {
+            "value": "{Base.Green}",
+            "type": "color"
+          },
+          "button_bg_secondary_black": {
+            "value": "{Base.Black}",
+            "type": "color"
+          },
+          "button_bg_tertiary": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_bg_primary_hover": {
+            "value": "{Secondary.Magenta.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_green_hover": {
+            "value": "{Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black_hover": {
+            "value": "{Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_bg_tertiary_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_bg_delete": {
+            "value": "{Secondary.Red.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_delete_hover": {
+            "value": "{Secondary.Red.Tint 3}",
+            "type": "color"
+          },
+          "button_bg_disabled": {
+            "value": "{Gray.Tint 4}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "button_border_tertiary": {
+            "value": "{Gray.Tint 8}",
+            "type": "color"
+          },
+          "button_border_tertiary_hover": {
+            "value": "{Base.Green}",
+            "type": "color"
+          }
+        }
+      },
+      "Surface": {
+        "bg_primary": {
+          "value": "{Base.White}",
+          "type": "color"
+        }
+      }
+    },
+    "Medewerker": {
+      "Surface": {
+        "bg_primary": {
+          "value": "{Base.Gray}",
+          "type": "color"
+        },
+        "bg_box": {
+          "value": "{Base.White}",
+          "type": "color"
+        }
+      }
+    },
+    "core": {
+      "text": {
+        "text_body": {
+          "value": "{Colors.Gray.Tint 11}",
+          "type": "color"
+        },
+        "text_subtitle": {
+          "value": "{Colors.Base.Green}",
+          "type": "color"
+        },
+        "text_form-field_placeholder": {
+          "value": "{Colors.Gray.Tint 9}",
+          "type": "color"
+        },
+        "text_error": {
+          "value": "{Colors.Secondary.Red.Tint 2}",
+          "type": "color"
+        },
+        "text_title": {
+          "value": "{Colors.Gray.Tint 11}",
+          "type": "color"
+        }
+      },
+      "buttons": {
+        "text": {
+          "button_text_primary": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_tertiary": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_delete": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_disabled": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_tertiary_hover": {
+            "value": "{Colors.Base.Green}",
+            "type": "color"
+          },
+          "button_text_secondary_black": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_black_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "button_bg_primary": {
+            "value": "{Colors.Base.Magenta}",
+            "type": "color"
+          },
+          "button_bg_secondary_green": {
+            "value": "{Colors.Base.Green}",
+            "type": "color"
+          },
+          "button_bg_secondary_black": {
+            "value": "{Colors.Base.Black}",
+            "type": "color"
+          },
+          "button_bg_tertiary": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_bg_primary_hover": {
+            "value": "{Colors.Secondary.Magenta.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_green_hover": {
+            "value": "{Colors.Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black_hover": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_bg_tertiary_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_bg_delete": {
+            "value": "{Colors.Secondary.Red.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_delete_hover": {
+            "value": "{Colors.Secondary.Red.Tint 3}",
+            "type": "color"
+          },
+          "button_bg_disabled": {
+            "value": "{Colors.Gray.Tint 4}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "button_border_tertiary": {
+            "value": "{Colors.Gray.Tint 8}",
+            "type": "color"
+          },
+          "button_border_tertiary_hover": {
+            "value": "{Colors.Base.Green}",
+            "type": "color"
+          }
+        },
+        "icons": {
+          "button_icon_primary": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_secondary_green": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_secondary_black": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_tertiary": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_icon_tertiary_hover": {
+            "value": "{Colors.Base.Green}",
+            "type": "color"
+          },
+          "button_icon_delete": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_disabled": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_icon_secondary_black_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          }
+        }
+      },
+      "surface": {
+        "bg_primary": {
+          "value": "{Colors.Base.White}",
+          "type": "color"
+        },
+        "border_primary": {
+          "value": "{Colors.Gray.Tint 4}",
+          "type": "color"
+        },
+        "bg_modal_overlay": {
+          "value": "{Colors.Base.Black}",
+          "type": "color"
+        }
+      },
+      "forms": {
+        "form_bg": {
+          "value": "{Colors.Base.White}",
+          "type": "color"
+        },
+        "form_border": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form_border_hover": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form_border_active": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "spacing": {
+        "spacing_xs": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_s": {
+          "value": "{Spacing.0,5}",
+          "type": "number"
+        },
+        "spacing_sm": {
+          "value": "{Spacing.1}",
+          "type": "number"
+        },
+        "spacing_m": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_ml": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_l": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_xl": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_2xl": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_3xl": {
+          "value": "{Spacing.12}",
+          "type": "number"
+        }
+      }
+    },
+    "medewerker": {
+      "surface": {
+        "bg_primary": {
+          "value": "{Colors.Base.Gray}",
+          "type": "color"
+        },
+        "bg_box": {
+          "value": "{Colors.Base.White}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Tokens/Dark": {
+    "Core": {
+      "Text": {
+        "text_primary": {
+          "value": "{Gray.Tint 11}",
+          "type": "color"
+        },
+        "text_subtitle": {
+          "value": "{Base.Green}",
+          "type": "color"
+        },
+        "text_form-field_placeholder": {
+          "value": "{Gray.Tint 9}",
+          "type": "color"
+        },
+        "text_error": {
+          "value": "{Secondary.Red.Tint 2}",
+          "type": "color"
+        }
+      },
+      "Buttons": {
+        "text": {
+          "button_text_primary": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_tertiary": {
+            "value": "{Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_text_delete": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_disabled": {
+            "value": "{Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_tertiary_hover": {
+            "value": "{Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_text_secondary_black": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_black_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "button_bg_primary": {
+            "value": "{Base.Magenta}",
+            "type": "color"
+          },
+          "button_bg_secondary_green": {
+            "value": "{Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_bg_tertiary": {
+            "value": "{Base.Black}",
+            "type": "color"
+          },
+          "button_bg_primary_hover": {
+            "value": "{Secondary.Magenta.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_green_hover": {
+            "value": "{Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black_hover": {
+            "value": "{Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_bg_tertiary_hover": {
+            "value": "{Base.White}",
+            "type": "color"
+          },
+          "button_bg_delete": {
+            "value": "{Secondary.Red.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_delete_hover": {
+            "value": "{Secondary.Red.Tint 3}",
+            "type": "color"
+          },
+          "button_bg_disabled": {
+            "value": "{Gray.Tint 4}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "button_border_tertiary": {
+            "value": "{Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_border_tertiary_hover": {
+            "value": "{Secondary.Yellow-dark.Tint 3}",
+            "type": "color"
+          }
+        }
+      },
+      "Surface": {
+        "bg_primary": {
+          "value": "{Base.Black}",
+          "type": "color"
+        }
+      }
+    },
+    "Medewerker": {
+      "Surface": {
+        "bg_primary": {
+          "value": "{Base.Black}",
+          "type": "color"
+        },
+        "bg_box": {
+          "value": "{Gray.Tint 11}",
+          "type": "color"
+        }
+      }
+    },
+    "core": {
+      "text": {
+        "text_body": {
+          "value": "{Colors.Base.White}",
+          "type": "color"
+        },
+        "text_subtitle": {
+          "value": "{Colors.Base.Green}",
+          "type": "color"
+        },
+        "text_form-field_placeholder": {
+          "value": "{Colors.Gray.Tint 9}",
+          "type": "color"
+        },
+        "text_error": {
+          "value": "{Colors.Secondary.Red.Tint 2}",
+          "type": "color"
+        },
+        "text_title": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "buttons": {
+        "text": {
+          "button_text_primary": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_tertiary": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_text_delete": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_disabled": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_tertiary_hover": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_text_secondary_black": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_text_secondary_black_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_text_secondary_green_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "button_bg_primary": {
+            "value": "{Colors.Base.Magenta}",
+            "type": "color"
+          },
+          "button_bg_secondary_green": {
+            "value": "{Colors.Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_bg_tertiary": {
+            "value": "{Colors.Base.Black}",
+            "type": "color"
+          },
+          "button_bg_primary_hover": {
+            "value": "{Colors.Secondary.Magenta.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_green_hover": {
+            "value": "{Colors.Secondary.Green.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_secondary_black_hover": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_bg_tertiary_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_bg_delete": {
+            "value": "{Colors.Secondary.Red.Tint 2}",
+            "type": "color"
+          },
+          "button_bg_delete_hover": {
+            "value": "{Colors.Secondary.Red.Tint 3}",
+            "type": "color"
+          },
+          "button_bg_disabled": {
+            "value": "{Colors.Gray.Tint 4}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "button_border_tertiary": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_border_tertiary_hover": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 3}",
+            "type": "color"
+          }
+        },
+        "icons": {
+          "button_icon_primary": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_secondary_green": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_secondary_black": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_icon_tertiary": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_icon_tertiary_hover": {
+            "value": "{Colors.Secondary.Yellow-dark.Tint 1}",
+            "type": "color"
+          },
+          "button_icon_delete": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          },
+          "button_icon_disabled": {
+            "value": "{Colors.Gray.Tint 11}",
+            "type": "color"
+          },
+          "button_icon_secondary_black_hover": {
+            "value": "{Colors.Base.White}",
+            "type": "color"
+          }
+        }
+      },
+      "surface": {
+        "bg_primary": {
+          "value": "{Colors.Base.Black}",
+          "type": "color"
+        },
+        "border_primary": {
+          "value": "{Colors.Gray.Tint 4}",
+          "type": "color"
+        },
+        "bg_modal_overlay": {
+          "value": "{Colors.Base.Black}",
+          "type": "color"
+        }
+      },
+      "forms": {
+        "form_bg": {
+          "value": "{Colors.Base.White}",
+          "type": "color"
+        },
+        "form_border": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form_border_hover": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form_border_active": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "spacing": {
+        "spacing_xs": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_s": {
+          "value": "{Spacing.0,5}",
+          "type": "number"
+        },
+        "spacing_sm": {
+          "value": "{Spacing.1}",
+          "type": "number"
+        },
+        "spacing_m": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_ml": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_l": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_xl": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_2xl": {
+          "value": 0,
+          "type": "number"
+        },
+        "spacing_3xl": {
+          "value": "{Spacing.12}",
+          "type": "number"
+        }
+      }
+    },
+    "medewerker": {
+      "surface": {
+        "bg_primary": {
+          "value": "{Colors.Base.Black}",
+          "type": "color"
+        },
+        "bg_box": {
+          "value": "{Colors.Gray.Tint 11}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "Primitives/Main": {
+    "Colors": {
+      "Base": {
+        "Green": {
+          "value": "#00811f",
+          "type": "color"
+        },
+        "Black": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "Gray": {
+          "value": "#eff4f6",
+          "type": "color"
+        },
+        "White": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "Magenta": {
+          "value": "#c93675",
+          "type": "color"
+        }
+      },
+      "Gray": {
+        "Tint 1": {
+          "value": "#eff4f6",
+          "type": "color"
+        },
+        "Tint 2": {
+          "value": "#e4eef1",
+          "type": "color"
+        },
+        "Tint 3": {
+          "value": "#dbe7ea",
+          "type": "color"
+        },
+        "Tint 4": {
+          "value": "#cad6da",
+          "type": "color"
+        },
+        "Tint 5": {
+          "value": "#b6c4c8",
+          "type": "color"
+        },
+        "Tint 6": {
+          "value": "#9dafb6",
+          "type": "color"
+        },
+        "Tint 7": {
+          "value": "#8d9da4",
+          "type": "color"
+        },
+        "Tint 8": {
+          "value": "#7c8b90",
+          "type": "color"
+        },
+        "Tint 9": {
+          "value": "#65757b",
+          "type": "color"
+        },
+        "Tint 10": {
+          "value": "#536165",
+          "type": "color"
+        },
+        "Tint 11": {
+          "value": "#404b4f",
+          "type": "color"
+        }
+      },
+      "Notification": {
+        "Neutral": {
+          "Background": {
+            "value": "#e8f4fb",
+            "type": "color"
+          },
+          "Outline": {
+            "value": "#b4dbf1",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "#00689e",
+            "type": "color"
+          },
+          "Notification dot": {
+            "value": "#00689e",
+            "type": "color"
+          }
+        },
+        "Alert": {
+          "Background": {
+            "value": "#fdf0ee",
+            "type": "color"
+          },
+          "Outline": {
+            "value": "#f7ccc5",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "#d70d0d",
+            "type": "color"
+          }
+        },
+        "Warning": {
+          "Background": {
+            "value": "#fef8e6",
+            "type": "color"
+          },
+          "Outline": {
+            "value": "#f9e7ac",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "#a65600",
+            "type": "color"
+          }
+        },
+        "Accomplishment": {
+          "Background": {
+            "value": "#e6f3e9",
+            "type": "color"
+          },
+          "Outline": {
+            "value": "#acd6b7",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "#00811f",
+            "type": "color"
+          }
+        }
+      },
+      "Secondary": {
+        "Blue": {
+          "Tint 1": {
+            "value": "#1791d4",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#0084c4",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#0079b8",
+            "type": "color"
+          }
+        },
+        "Orange-bright": {
+          "Tint 1": {
+            "value": "#ef7d00",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#e56e02",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#db5f06",
+            "type": "color"
+          }
+        },
+        "Brown": {
+          "Tint 1": {
+            "value": "#ab8061",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#997056",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#8b644c",
+            "type": "color"
+          }
+        },
+        "Blue-dark": {
+          "Tint 1": {
+            "value": "#00548f",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#084279",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#083968",
+            "type": "color"
+          }
+        },
+        "Brown-dark": {
+          "Tint 1": {
+            "value": "#6b4236",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#5e362c",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#552d25",
+            "type": "color"
+          }
+        },
+        "Green-dark": {
+          "Tint 1": {
+            "value": "#004c31",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#07341b",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#001905",
+            "type": "color"
+          }
+        },
+        "Yellow-dark": {
+          "Tint 1": {
+            "value": "#edb500",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#e0a200",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#d99600",
+            "type": "color"
+          }
+        },
+        "Green": {
+          "Tint 1": {
+            "value": "#00811f",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#006e32",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#00602e",
+            "type": "color"
+          }
+        },
+        "Green-blue": {
+          "Tint 1": {
+            "value": "#09957b",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#00846d",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#00755f",
+            "type": "color"
+          }
+        },
+        "Green-light": {
+          "Tint 1": {
+            "value": "#57b051",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#11a03e",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#11a03e",
+            "type": "color"
+          }
+        },
+        "Blue-light": {
+          "Tint 1": {
+            "value": "#a8e8f5",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#92cfe1",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#76c1d3",
+            "type": "color"
+          }
+        },
+        "Green-lime": {
+          "Tint 1": {
+            "value": "#7dc90f",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#73b129",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#62a72b",
+            "type": "color"
+          }
+        },
+        "Magenta": {
+          "Tint 1": {
+            "value": "#c93675",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#a12b5e",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#792046",
+            "type": "color"
+          }
+        },
+        "Orange": {
+          "Tint 1": {
+            "value": "#e3614d",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#d85644",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#ce4c3b",
+            "type": "color"
+          }
+        },
+        "Pink": {
+          "Tint 1": {
+            "value": "#e6007e",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#ce0075",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#b21271",
+            "type": "color"
+          }
+        },
+        "Purple": {
+          "Tint 1": {
+            "value": "#701747",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#510e33",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#420c2f",
+            "type": "color"
+          }
+        },
+        "Red": {
+          "Tint 1": {
+            "value": "#fe1818",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#d70d0d",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#9a0f0f",
+            "type": "color"
+          }
+        },
+        "Green-soft": {
+          "Tint 1": {
+            "value": "#e1efe2",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#d1e6ce",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#99cca0",
+            "type": "color"
+          }
+        },
+        "Yellow": {
+          "Tint 1": {
+            "value": "#fdec3d",
+            "type": "color"
+          },
+          "Tint 2": {
+            "value": "#edde26",
+            "type": "color"
+          },
+          "Tint 3": {
+            "value": "#e1d600",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Spacing": {
+      "1": {
+        "value": 8,
+        "type": "number"
+      },
+      "2": {
+        "value": 16,
+        "type": "number"
+      },
+      "3": {
+        "value": 24,
+        "type": "number"
+      },
+      "4": {
+        "value": "32",
+        "type": "text"
+      },
+      "5": {
+        "value": 40,
+        "type": "number"
+      },
+      "6": {
+        "value": 48,
+        "type": "number"
+      },
+      "7": {
+        "value": 56,
+        "type": "number"
+      },
+      "8": {
+        "value": 64,
+        "type": "number"
+      },
+      "9": {
+        "value": 72,
+        "type": "number"
+      },
+      "10": {
+        "value": 80,
+        "type": "number"
+      },
+      "11": {
+        "value": 88,
+        "type": "number"
+      },
+      "12": {
+        "value": 96,
+        "type": "number"
+      },
+      "0,5": {
+        "value": 4,
+        "type": "number"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "Fundament/Light",
+      "Tokens/Light",
+      "Tokens/Dark",
+      "Primitives/Main"
     ]
   }
 }
